@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const sequelize = require('./db/conn');
+const db = require('./db/conn.js');
 
 const app = express();
 const port = process.env.PORT || 5000;
