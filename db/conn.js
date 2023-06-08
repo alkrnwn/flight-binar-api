@@ -10,8 +10,4 @@ const {
   DB_URI
 } = process.env
 
-const db = new Sequelize(DB_URI, {
-  define: {
-    timestamps: false
-  }
-});
+
