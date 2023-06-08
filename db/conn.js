@@ -9,7 +9,7 @@ const sequelize = new Sequelize({
   host: process.env.DB_HOST,
 });
 
-const db = new Sequelize(DB_URI, {
+const sequelize = new Sequelize(DB_URI, {
   define: {
     timestamps: false
   }
